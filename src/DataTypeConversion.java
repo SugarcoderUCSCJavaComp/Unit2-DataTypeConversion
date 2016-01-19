@@ -21,6 +21,13 @@ public class DataTypeConversion {
         code = (byte) bankAccount;
         System.out.println("bank accont: " + bankAccount + " code: " + code);
 
+        process("Amy", 1,3,5,2,8,6,7,9);
+
+    }
+
+    
+    static void process(String name, int...args) {
+        System.out.println("# of args: " + args.length);
     }
 }
 
