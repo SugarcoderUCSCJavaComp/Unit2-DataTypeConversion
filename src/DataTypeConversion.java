@@ -25,9 +25,9 @@ public class DataTypeConversion {
 
     }
 
-    
-    static void process(String name, int...args) {
-        System.out.println("# of args: " + args.length);
+
+    static void process(String name, int...args) {      // ... = pass in the next few integers
+        System.out.println("# of args: " + args.length);     // find out how many numbers are in the array
     }
 }
 
